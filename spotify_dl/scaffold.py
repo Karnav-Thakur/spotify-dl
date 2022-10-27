@@ -26,8 +26,8 @@ def get_tokens():
     :return string containing the cleaned name
     """
     log.debug("Checking for tokens")
-    CLIENT_ID = getenv("SPOTIPY_CLIENT_ID")
-    CLIENT_SECRET = getenv("SPOTIPY_CLIENT_SECRET")
+    CLIENT_ID = "1b67ce7884574ce487d979063f937a59"
+    CLIENT_SECRET = "9cdfcde026c348c4bc373be4de3bd2b5"
     log.debug("Tokens fetched : %s %s ", CLIENT_ID, CLIENT_SECRET)
 
     if CLIENT_ID is None or CLIENT_SECRET is None:
